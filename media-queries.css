@@ -1,0 +1,138 @@
+@media screen and (max-width:991px){
+    .hero-section2 h1{
+        font-size:2.5rem;
+    }
+
+    .accordian{
+        width:900px;
+    }
+    .FAQ>h1{
+        font-size:2.2rem;
+    }
+
+    .faq-search{
+       width: 100%;
+       margin-left:40px;
+    }
+    .faq-search>p{
+        font-size:1.3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero-section2 h1{
+        font-size:2rem;
+    }
+    .accordian{
+        width:700px;
+    }
+    .main-tv{
+        flex-direction: column;
+        width:90%;
+        row-gap:20px;
+    }
+    .left-tv-section,.right-tv-section img {
+        width:100%;
+    }
+    .left-tv-section h2{
+        font-size:2rem;
+        text-align: center;
+    }
+    
+    .left-tv-section P{
+        font-size:1.5rem;
+        text-align: center;
+    }
+    .faq-search{
+        width: 100%;
+        margin-left:20px;
+        
+     }
+     .faq-search>p{
+         font-size:1.2rem;
+
+     }
+}
+
+
+@media screen and (max-width:740px) {
+    .hero-section2 h1{
+        font-size:1.8rem;
+    }
+
+   .logo img{
+    width:150px;
+   }
+
+   .hero-section2 input{
+    height:3.3rem;
+    width:100%;
+    border-radius:0.5rem;
+    padding:10px;
+    font-size:1.4rem;
+}
+.hero-section2 a{   
+    margin-top:20px; 
+    padding:10px 8px;
+    font-size:1.5rem;
+    font-weight:600;
+    width:50%;
+}
+  nav{
+    background:linear-gradient(rgba(0, 0, 0, 0.724),rgba(0, 0, 5, 0.532)),url(assets/bgimg.jpg) no-repeat ;
+    background-position:cover;
+    background-size:cover;
+    
+}
+ .nav{
+    justify-content:space-between;
+    gap:10%;
+}
+
+  .accordian{
+    width:100%;
+}
+
+.faq-search{
+    width: 100%;
+    margin-left:10px;
+    
+ }
+}
+
+
+@media screen and (max-width:479px) {
+    .nav-link ul li a{
+        font-size:0.7rem;
+        font-weight:500;
+        width:100%;
+    }
+
+    .hero-section2 a{   
+        margin-top:20px; 
+        padding:10px 10px;
+        font-size:1.2rem;
+        font-weight:600;
+        width:80%;
+    }
+    .hero-section2 h3{
+        margin-top:20px;
+        text-align: center;
+        font-size:1rem; 
+    }
+    .logo img{
+        width:95px;
+       }
+  .btneng{
+        border-radius:0.28rem;
+        padding:0.2rem 0.2rem;
+        font-size:0.8rem;
+    }
+    .footercont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        
+    }
+}
